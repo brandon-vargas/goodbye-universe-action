@@ -1,0 +1,5 @@
+name: 'Goodbye Universe!'
+description: 'Say goodbye to the universe'
+runs:
+  using: 'docker'
+  image: 'Dockerfile'
