@@ -5,5 +5,5 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@master
-      - name: Build the Docker image
-        run: docker build .
+      - name: Goodbye Universe action step
+        uses: ./ # Uses an action in the root directory
