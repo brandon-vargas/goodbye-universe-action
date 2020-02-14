@@ -1,5 +1,9 @@
 name: 'Goodbye Universe!'
 description: 'Say goodbye to the universe'
+inputs:
+  test_secret:
+    description: This is a test secret
+    required: true
 runs:
   using: 'docker' # The type of action to be ran. Either docker or javascript
   image: 'Dockerfile' # reference of the Dockerfile to be used. In this case, use the Dockerfile in the local directory
