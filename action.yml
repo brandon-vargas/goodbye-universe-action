@@ -1,5 +1,5 @@
 name: 'Goodbye Universe!'
 description: 'Say goodbye to the universe'
 runs:
-  using: 'docker'
-  image: 'Dockerfile'
+  using: 'docker' # The type of action to be ran. Either docker or javascript
+  image: 'Dockerfile' # reference of the Dockerfile to be used. In this case, use the Dockerfile in the local directory
