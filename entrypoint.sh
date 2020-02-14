@@ -1,8 +1,8 @@
 #!/bin/sh
 
 set -e
-env
+# env
 
 echo "GOOD BYE UNIVERSE! SEE YA LATER!"
 echo "I will attempt to access an input given as a secret..."
-echo $INPUT_test_secret
+echo $text_secret
