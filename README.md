@@ -1,1 +1,0 @@
-# goodbye-universe-action
